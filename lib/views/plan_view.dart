@@ -150,7 +150,7 @@ class PlanView extends StatelessWidget {
             ),
 
             Positioned(
-              top: 55.h,
+              top: Constant.kSize(MediaQuery.of(context).size.height, 40.h, 55.h),
               child: Container(
                 height: 90.r,
                 width: 90.r,
